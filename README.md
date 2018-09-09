@@ -1,24 +1,17 @@
-# README
+2018년도 강원대학교 대동제
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+1.  Ruby on rails
+2.  jQuery
+3.  kakao API
+4.  wow.js
 
-Things you may want to cover:
+PM : 박귀열
 
-* Ruby version
+Desighner : 고유미 / 이안하
 
-* System dependencies
+front : 고상희 / 손명진 / 박수민 / 이상은 / 하준혁
 
-* Configuration
+Back : 홍석준 / 하준혁
 
-* Database creation
+감독(?) : slow_samuel
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...

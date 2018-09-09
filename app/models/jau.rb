@@ -1,0 +1,2 @@
+class Jau < ApplicationRecord
+end
