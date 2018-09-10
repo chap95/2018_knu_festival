@@ -300,6 +300,8 @@ body {
             }
             
 // 축제일정 
+
+
 @font-face { font-family: 'BMJUA';
 src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/BMJUA.woff') format('woff'); 
 font-weight: normal;
@@ -346,9 +348,7 @@ font-style: normal;
     top: 1000px;
 }
 
-#footer{
-    position: absolute;
-}
+
 
 // 축제일정
 .list{
@@ -517,4 +517,16 @@ font-style: normal;
 .line_up_txt02:hover{
     opacity: 1;
     transition: all 1s;
+}
+
+.img_position{
+    background-image: url("festival_main_03.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: block;
+    // position: relative;
+    min-height: 1000px;
+    width: 100%;
+    margin-top: 20%;
 }
