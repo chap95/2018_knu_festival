@@ -308,6 +308,13 @@ font-style: normal;
   line-height: 9vw;
   text-shadow: 0 0 3vw #ffe522;
   text-align: center;
+  // margin-bottom: 0px;
+}
+#time_line{
+  margin-bottom: 0px;
+}
+#id {
+  font-size: 2vw;
 }
 
 
@@ -362,6 +369,9 @@ font-style: normal;
     // letter-spacing: 4px;
     word-spacing: 15px;
     white-space: nowrap;
+}
+.img-fluid {
+  padding: 140px 0;
 }
 
 
@@ -439,42 +449,42 @@ font-style: normal;
     min-height: 1000px;
 }
 
-.line_up_txt01{
-    position: relative;
-    background-color: rgba(240,240,240,0.5);
+// .line_up_txt01{
+//     position: relative;
+//     background-color: rgba(240,240,240,0.5);
     
-    min-height: 500px;
-    text-align: center;
-    display: inline-block;
+//     min-height: 500px;
+//     text-align: center;
+//     display: inline-block;
     
-    margin-top: 0px;
-    margin-bottom: 0px;
-    width: 100%;
-    height: 100%;
-    opacity: 0;
-    transition: all 1s;
-    color: black;
-}
+//     margin-top: 0px;
+//     margin-bottom: 0px;
+//     width: 100%;
+//     height: 100%;
+//     opacity: 0;
+//     transition: all 1s;
+//     color: black;
+// }
 
-.line_up_txt01:hover{
-    opacity: 1;
-    transition: all 1s;
-}
+// .line_up_txt01:hover{
+//     opacity: 1;
+//     transition: all 1s;
+// }
 
-.bar_01{
-    min-height: 50px;
-    background-color: #282E34;
-    background-position: center;
-    position: relative;
-    top: 95%;
-    width: 100%;
-    display: inline-block;
-    z-index: 3;
+// .bar_01{
+//     min-height: 50px;
+//     background-color: #282E34;
+//     background-position: center;
+//     position: relative;
+//     top: 95%;
+//     width: 100%;
+//     display: inline-block;
+//     z-index: 3;
     
     
-    margin-bottom: 0px;
-    // padding-right: 60px;
-}
+//     margin-bottom: 0px;
+//     // padding-right: 60px;
+// }
 
 .line_up_pic02{
     background-image: url("jannavi.jpg");
@@ -489,27 +499,27 @@ font-style: normal;
     min-height: 1000px;
 }
 
-.line_up_txt02{
-    position: relative;
-    background-color: rgba(240,240,240,0.5);
+// .line_up_txt02{
+//     position: relative;
+//     background-color: rgba(240,240,240,0.5);
     
-    min-height: 500px;
-    text-align: center;
-    display: inline-block;
+//     min-height: 500px;
+//     text-align: center;
+//     display: inline-block;
     
-    margin-top: 0px;
-    margin-bottom: 0px;
-    width: 100%;
-    height: 100%;
-    opacity: 0;
-    transition: all 1s;
-    color: black;
-}
+//     margin-top: 0px;
+//     margin-bottom: 0px;
+//     width: 100%;
+//     height: 100%;
+//     opacity: 0;
+//     transition: all 1s;
+//     color: black;
+// }
 
-.line_up_txt02:hover{
-    opacity: 1;
-    transition: all 1s;
-}
+// .line_up_txt02:hover{
+//     opacity: 1;
+//     transition: all 1s;
+// }
 
 .img_position{
     background-image: url("festival_main_03.png");
@@ -520,7 +530,7 @@ font-style: normal;
     // position: relative;
     min-height: 1000px;
     width: 100%;
-    margin-top: 20%;
+    margin-top: 15%;
 }
 
 
@@ -570,6 +580,17 @@ font-style: normal;
     min-height: 500px;
 }
 
+.mobile_broken_brick{
+    background-image: url("broken_brick.png");
+    // background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    // margin-left: 60px;
+    // margin-right: 60px;
+    
+    min-height: 1000px;
+}
 
 // 지도 부분
 
