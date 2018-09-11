@@ -26,7 +26,10 @@ var pusher = new Pusher('<%= ENV["PUSHER_KEY"] %>', {
   });
   
   function msg_generate(data) {
-      alert(data.body)
+      $('.chat_room_list').prepend(`
+      <tr>
+        <td>${data.body}</td>
+      </tr>`);
     }
 
   var channel = pusher.subscribe('dashboard');
