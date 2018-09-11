@@ -49,14 +49,36 @@
 </div>
 
 <!--라인 업-->
-<div class="section02"> 
+
+<% if mobile? %>
+<!-- 모바일 -->
+<div class="mobile_section02"> 
   <p class="flux line_up">LINE-UP</p>
   
-  <div class="line_up_pic01">
+  <div class="mobile_line_up_pic01">
     <div class="line_up_txt01">폴킴</div>
   </div>
   
   <div class="bar_01"></div>
+  
+  <div class="mobile_line_up_pic02">
+    <div class="line_up_txt02">잔나비</div>
+  </div>
+</div>
+
+<% else %>
+<!--PC-->
+<div class="section02"> 
+  <p class="flux line_up">LINE-UP</p>
+  
+  <div class="line_up_pic01">
+    <div class="broken_bricks"></div>
+      
+  </div>
+    <!--<div class="line_up_txt01">폴킴</div>-->
+  
+  
+  
   
   <div class="line_up_pic02">
     <div class="line_up_txt02">잔나비</div>
@@ -77,5 +99,21 @@
   <!--  <%= image_tag "jannavi.jpg",  class: "line_up_img"  %>-->
 
   <!--</div>-->
+</div>
+<% end %>
+
+
+<!-- 지도 -->
+<div class="map_section">
+  <p class="flux">축제 지도</p>
+  <div class="map">
+    
+  </div>
+  <p>ipsum Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti culpa iure porro perferendis sapiente sunt accusantium nihil perspiciatis non excepturi, asperiores impedit libero nulla natus voluptatibus quia fuga aspernatur deserunt.</p>
+</div>
+
+<div class="posts_section">
+  <div class="posts_div"></div>
+  <p>ipsum Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit itaque laboriosam, mollitia repellat libero? Quia debitis, similique saepe, totam enim, ut repudiandae esse consequatur, eius voluptas quidem minima ab eos?</p>
 </div>
 

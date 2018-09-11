@@ -6,16 +6,8 @@ body {
                 color: rgba(255,255,255,0.6);
                 margin: 0;
                 padding: 0;
-                height: 4000px;
-                background: rgba(66,39,71,1);
-                background: -moz-linear-gradient(top, rgba(66,39,71,1) 0%, rgba(43,25,46,1) 73%, rgba(19,11,20,1) 100%);
-                background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(66,39,71,1)), color-stop(73%, rgba(43,25,46,1)), color-stop(100%, rgba(19,11,20,1)));
-                background: -webkit-linear-gradient(top, rgba(66,39,71,1) 0%, rgba(43,25,46,1) 73%, rgba(19,11,20,1) 100%);
-                background: -o-linear-gradient(top, rgba(66,39,71,1) 0%, rgba(43,25,46,1) 73%, rgba(19,11,20,1) 100%);
-                background: -ms-linear-gradient(top, rgba(66,39,71,1) 0%, rgba(43,25,46,1) 73%, rgba(19,11,20,1) 100%);
-                background: linear-gradient(to bottom, rgba(66,39,71,1) 0%, rgba(43,25,46,1) 73%, rgba(19,11,20,1) 100%);
-                background-repeat: no-repeat;
-                background-size: cover;
+                height: 12000px;
+                background-image: url("bricks.jpeg");
             }
             a {
                 color: rgba(255,255,255,0.6);
@@ -444,7 +436,7 @@ font-style: normal;
     margin-left: 60px;
     margin-right: 60px;
     
-    min-height: 500px;
+    min-height: 1000px;
 }
 
 .line_up_txt01{
@@ -494,7 +486,7 @@ font-style: normal;
     margin-right: 60px;
     margin-top: -7px;
     
-    min-height: 500px;
+    min-height: 1000px;
 }
 
 .line_up_txt02{
@@ -529,4 +521,93 @@ font-style: normal;
     min-height: 1000px;
     width: 100%;
     margin-top: 20%;
+}
+
+
+// 벽돌 꺠진 부분
+.broken_bricks{
+    background-image: url("broken_brick.png");
+    // background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    // margin-left: 60px;
+    // margin-right: 60px;
+    
+    min-height: 1000px;
+}
+
+// 라인업 모바일 부분
+// 사진의 parallax 부분 삭제
+
+.mobile_section02{
+    position: absolute;
+    top: 2000px;
+    width: 100%;
+    text-align: center;
+}
+
+.mobile_line_up_pic01{
+    background-image: url("paul_kim02.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 60px;
+    margin-right: 60px;
+    
+    min-height: 500px;
+}
+
+.mobile_line_up_pic02{
+    background-image: url("jannavi.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: -7px;
+    
+    min-height: 500px;
+}
+
+
+// 지도 부분
+
+.map_section{
+    position: absolute;
+    top: 5000px;
+    width: 100%;
+    text-align: center;
+}
+
+.map{
+    background-image: url("map.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 60px;
+    margin-right: 60px;
+    
+    
+    min-height: 500px;
+    
+}
+
+// 자유게시판 부부
+.posts_section{
+    position: absolute;
+    top: 7000px;
+    width: 100%;
+    text-align: center;
+}
+
+.posts_div{
+    min-height: 700px;
+    border: 4px solid white;
+    background-color: white;
+    background-position: center;
+    width: 800px;
+    
+    margin-left: auto;
+    margin-right: auto;
 }
