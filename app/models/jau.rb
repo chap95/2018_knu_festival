@@ -1,2 +1,0 @@
-class Jau < ApplicationRecord
-end
