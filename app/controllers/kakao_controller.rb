@@ -20,8 +20,7 @@ class KakaoController < ApplicationController
             message: {
                 text: "머동머동",
                 photo: {
-                    #TODO 사진 넣기
-                  url: "",
+                  url: "https://postfiles.pstatic.net/MjAxODA5MTFfMjM3/MDAxNTM2NjYxOTQ4Njc4.q2mz6tNAcSvSfd8mZkG2ze7HfX1qs75lK5BbLFkO0iog.arV7nzgGjBcy75JzDYz0iTKpAuKWotnnZ0qvyzqFwPQg.JPEG.hsj0531/%EB%A8%B8%EB%8F%99.jpg?type=w580",
                   width: 640,
                   height: 480
                 },
@@ -65,11 +64,7 @@ class KakaoController < ApplicationController
                 }
             }
         else
-            @post = Jau.new
-            @post.user_key = params[:user_key]
-            @post.content = params[:content]
-            @post.save
-            
+            Message.create(body: @input)
             @msg = {
                 message: {
                     text: "글이 정상적으로 등록되었습니다."

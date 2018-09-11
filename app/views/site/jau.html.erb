@@ -1,0 +1,38 @@
+<script>
+
+// $(document).on('ready', function() {
+//   var pusher = new Pusher('', {
+//     cluster: '',
+//     encrypted: true
+//   });
+  
+//   function msg_generate(data) {
+//       $('.chat_room_list').prepend(`
+//       <tr>
+//         <td>${data.body}</td>
+//       </tr>`);
+//     }
+
+//   var channel = pusher.subscribe('dashboard');
+//   channel.bind('create', function(data) {
+//     console.log(data);
+//     msg_generate(data);
+//   });
+// })
+
+var pusher = new Pusher('<%= ENV["PUSHER_KEY"] %>', {
+    cluster: '<%= ENV["PUSHER_CLUSTER"] %>',
+    encrypted: true
+  });
+  
+  function msg_generate(data) {
+      alert(data.body)
+    }
+
+  var channel = pusher.subscribe('dashboard');
+  channel.bind('create', function(data) {
+    console.log(data);
+    msg_generate(data);
+  });
+
+</script>
