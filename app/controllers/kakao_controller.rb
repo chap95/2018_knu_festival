@@ -5,7 +5,7 @@ class KakaoController < ApplicationController
         
         @keyboard = {
             type: "buttons",
-            buttons: ["머동머동으로","일정","라인업","글쓰기"]
+            buttons: ["왁자지껄 게시판에 글 올리기","왁자지껄 게시판으로 가기", "머동머동 사이트로 가기","축제 일정 보기","라인업이 어떻게 되나요?"]
         }
         
         render json: @keyboard
@@ -15,7 +15,7 @@ class KakaoController < ApplicationController
         
         @input = params[:content]
         
-        if @input == "머동머동으로"
+        if @input == "머동머동 사이트로 가기"
             @msg = {
             message: {
                 text: "머동머동",
@@ -31,30 +31,30 @@ class KakaoController < ApplicationController
               },
               keyboard: {
                 type: "buttons",
-                buttons: ["머동머동으로","일정","라인업","글쓰기"]
+                buttons: ["왁자지껄 게시판에 글 올리기","왁자지껄 게시판으로 가기", "머동머동 사이트로 가기","축제 일정 보기","라인업이 어떻게 되나요?"]
               }
             }
-        elsif @input == "일정"
+        elsif @input == "축제 일정 보기"
             @msg = {
                 message: {
-                    text: "일정 보여주기"
+                    text: "일차를 골라주세요~"
                 },
                 keyboard: {
                 type: "buttons",
-                buttons: ["머동머동으로","일정","라인업","글쓰기"]
+                buttons: ["1일차", "2일차", "3일차"]
               }
             }
-        elsif @input == "라인업"
+        elsif @input == "라인업이 어떻게 되나요?"
             @msg = {
                 message: {
                     text: "라인업 보여주기"
                 },
                 keyboard: {
                 type: "buttons",
-                buttons: ["머동머동으로","일정","라인업","글쓰기"]
+                buttons: ["왁자지껄 게시판에 글 올리기","왁자지껄 게시판으로 가기", "머동머동 사이트로 가기","축제 일정 보기","라인업이 어떻게 되나요?"]
               }
             }
-        elsif @input == "글쓰기"
+        elsif @input == "왁자지껄 게시판에 글 올리기"
             @msg = {
                 message: {
                     text: "글을 써주세요"
@@ -63,6 +63,46 @@ class KakaoController < ApplicationController
                     type: "text"
                 }
             }
+        elsif @input == "1일차"
+            @msg = {
+                message: {
+                    text: "1일차 일정"
+                },
+                keyboard: {
+                type: "buttons",
+                buttons: ["2일차","3일차","뒤로가기"]
+              }
+            }
+        elsif @input == "2일차"
+            @msg = {
+                message: {
+                    text: "2일차 일정"
+                },
+                keyboard: {
+                type: "buttons",
+                buttons: ["1일차","3일차","뒤로가기"]
+              }
+            }
+        elsif @input == "3일차"
+            @msg = {
+                message: {
+                    text: "3일차 일정"
+                },
+                keyboard: {
+                type: "buttons",
+                buttons: ["1일차","2일차","뒤로가기"]
+              }
+            }
+        elsif @input == "뒤로가기"
+            @msg = {
+                message: {
+                    text: "뒤로가기를 눌렀습니다."
+                },
+                keyboard: {
+                type: "buttons",
+                buttons: ["왁자지껄 게시판에 글 올리기","왁자지껄 게시판으로 가기", "머동머동 사이트로 가기","축제 일정 보기","라인업이 어떻게 되나요?"]
+              }
+            }    
         else
             Message.create(body: @input)
             @msg = {
@@ -71,7 +111,7 @@ class KakaoController < ApplicationController
                 },
                 keyboard: {
                     type: "buttons",
-                    buttons: ["머동머동으로","일정","라인업","글쓰기"]
+                    buttons: ["왁자지껄 게시판에 글 올리기","왁자지껄 게시판으로 가기", "머동머동 사이트로 가기","축제 일정 보기","라인업이 어떻게 되나요?"]
                 }
             }
         end

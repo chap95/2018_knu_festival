@@ -1,0 +1,98 @@
+<script>
+	/* 축제일정 */
+    $(document).ready(function (){
+        $("#festival_info").click(function (){
+            $('html, body').animate({
+                scrollTop: $(".list").offset().top-150
+            }, 500);
+        });
+        
+        $("#festival_line_up").click(function (){
+            $('html, body').animate({
+                scrollTop: $(".line_up").offset().top-150
+            }, 500);
+        });
+        
+        $("#festival_map").click(function (){
+            $('html, body').animate({
+                scrollTop: $(".map_section").offset().top-150
+            }, 500);
+        });
+    });
+</script>
+
+<!-- 배경이미지 -->
+<div class="bg"></div>
+
+<!-- 로고 -->
+<h1><img src="img/logo.png" /></h1>
+
+<!-- 스크롤 네비게이션 -->
+<ul class="scrollNavi" style="margin-left: 80%">
+	<li><span></span><em> <a href="javascript:void(0);" id="festival_info">축제일정</a></em></li>
+	<li><span></span><em> <a href="javascript:void(0);" id="festival_line_up">LINE UP</a></em></li>
+	<li><span></span><em> <a href="javascript:void(0);" id="festival_map">축제 지도</a></em></li>
+	<li><span></span><em> <a href="javascript:void(0);">Player 4</a></em></li>
+	<li><span></span><em> <a href="javascript:void(0);">Player 5</a></em></li>	
+</ul>
+
+<!-- 박스 그룹 -->
+<div id="block">
+	<section>
+		<!-- 첫 번째 박스 -->
+		<article class="on">				
+			<img class="obj11" src="img/pic11.png" />
+			<img class="obj12" src="img/pic12.png" />
+			<img class="obj13" src="img/player1.png" />	
+			<p class="on">
+				<span>Lorem Ipsum</span><br />
+				<em>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </em>
+			</p>
+		</article>
+		
+		<!-- 두 번째 박스 -->
+		<article>
+			<img class="obj21" src="img/pic21.png" />		
+			<img class="obj22" src="img/player2.png" />
+			<p>
+				<span>Lorem Ipsum</span><br />
+				<em>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </em>
+			</p>
+		</article>
+		
+		<!-- 세 번째 박스 -->
+		<article>	
+			<img class="obj31" src="img/pic31.png" />		
+			<img class="obj32" src="img/player3.png" />	
+			<p>
+				<span>Lorem Ipsum</span><br />
+				<em>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </em>
+			</p>
+		</article>
+		
+		<!-- 네 번째 박스 -->
+		<article>	
+			<img class="obj41" src="img/pic41.png" />
+			<img class="obj42" src="img/pic42.png" />
+			<img class="obj43" src="img/player4.png" />	
+			<p class="on">
+				<span>Lorem Ipsum</span><br />
+				<em>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </em>
+			</p>
+		</article>
+		
+		<!-- 다섯 번째 박스 -->
+		<article>	
+			<img class="obj51" src="img/pic51.png" />
+			<img class="obj52" src="img/pic52.png" />
+			<img class="obj53" src="img/player5.png" />	
+			<p class="on">
+				<span>Lorem Ipsum</span><br />
+				<em>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </em>
+			</p>
+		</article>
+	</section>
+</div>
+
+<!-- 카피라이트 -->
+<span class="copyright">Copyright 2018 LikeLion@Kangwon, Choi All right reserved.</span>
