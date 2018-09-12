@@ -1,4 +1,6 @@
-<img src="./app/assets/images/plus_link.jpg" style="width:300px;"/>
+<div align="middle">
+<img src="./app/assets/images/plus_link.jpg" height="200px"/>
+</div>
 
 <p align="center">
 	<img src="https://img.shields.io/badge/LIKELION-6th-orange.svg">
