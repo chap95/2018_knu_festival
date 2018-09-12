@@ -40,9 +40,6 @@
 #### 초기 셋팅
 
 
-
-![Git_guide_1](./git_guide/Git_guide_1.png)
-
 ![Git_guide_2](./git_guide/Git_guide_2.png)
 
 ![Git_guide_3](./git_guide/Git_guide_3.png)
