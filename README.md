@@ -31,14 +31,17 @@
 
 #### 개발 포지션
 
-1. Front-end: 하준혁, 손명진, 고상희, 박귀열, 박수민, 이상은
-2. Back-end: 홍석준, 서현석
-3. Designer: 고유미, 이인하
+* Front-end: 하준혁, 손명진, 고상희, 박귀열, 박수민, 이상은
+
+* Back-end: 홍석준, 서현석
+
+* Designer: 고유미, 이인하
 
 #### 초기 셋팅
 
-<center>
-    ![Git_guide_1](./git_guide/Git_guide_1.png)
+
+
+![Git_guide_1](./git_guide/Git_guide_1.png)
 
 ![Git_guide_2](./git_guide/Git_guide_2.png)
 
