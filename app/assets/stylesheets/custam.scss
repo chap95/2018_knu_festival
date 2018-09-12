@@ -7,7 +7,7 @@ body {
     margin: 0;
     padding: 0;
     height: 18000px;
-    background-image: url("bricks.jpeg");
+    background-image: url("/img/bricks.jpeg");
 }
 a {
     color: rgba(255,255,255,0.2);
@@ -413,7 +413,7 @@ width: 100%;
 
 
 .line_up_pic01{
-background-image: url("mamamu_bback.png");
+background-image: url("/img/mamamu_bback.png");
 background-attachment: fixed;
 background-position: center;
 background-repeat: no-repeat;
@@ -462,7 +462,7 @@ min-height: 1000px;
 // }
 
 .line_up_pic02{
-background-image: url("cheeze_back.jpg");
+background-image: url("/img/cheeze_back.jpg");
 background-attachment: fixed;
 background-position: center;
 background-repeat: no-repeat;
@@ -475,7 +475,7 @@ min-height: 1000px;
 }
 
 .line_up_pic03{
-background-image: url("aomg_BBACK.png");
+background-image: url("/img/aomg_BBACK.png");
 background-attachment: fixed;
 background-position: center;
 background-repeat: no-repeat;
@@ -488,7 +488,7 @@ min-height: 1000px;
 }
 
 .line_up_pic04{
-background-image: url("bok_bback.jpg");
+background-image: url("/img/bok_bback.jpg");
 background-attachment: fixed;
 background-position: center;
 background-repeat: no-repeat;
@@ -523,7 +523,7 @@ min-height: 1000px;
 // }
 
 .img_position{
-background-image: url("festival_main_03.png");
+background-image: url("/img/festival_main_03.png");
 background-position: center;
 background-size: contain;
 background-repeat: no-repeat;
@@ -537,7 +537,7 @@ margin-top: 5%;
 
 // 벽돌 꺠진 부분
 .broken_bricks{
-background-image: url("broken_brick.png");
+background-image: url("/img/broken_brick.png");
 // background-attachment: fixed;
 background-position: center;
 background-repeat: no-repeat;
@@ -559,7 +559,7 @@ text-align: center;
 }
 
 .mobile_line_up_pic01{
-background-image: url("mamamoo_back.jpg");
+background-image: url("/img/mamamoo_back.jpg");
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
@@ -570,7 +570,7 @@ min-height: 500px;
 }
 
 .mobile_line_up_pic02{
-background-image: url("cheeze_back.jpg");
+background-image: url("/img/cheeze_back.jpg");
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
@@ -582,7 +582,7 @@ min-height: 500px;
 }
 
 .mobile_line_up_pic03{
-background-image: url("aomg_back.jpg");
+background-image: url("/img/aomg_back.jpg");
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
@@ -594,7 +594,7 @@ min-height: 500px;
 }
 
 .mobile_line_up_pic04{
-background-image: url("bok_bback.jpg");
+background-image: url("/img/bok_bback.jpg");
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
@@ -607,7 +607,7 @@ min-height: 500px;
 
 
 .mobile_broken_brick{
-background-image: url("broken_brick.png");
+background-image: url("/img/broken_brick.png");
 // background-attachment: fixed;
 background-position: center;
 background-repeat: no-repeat;
@@ -628,7 +628,7 @@ text-align: center;
 }
 
 .map{
-background-image: image-url("map.png");
+background-image: url("/img/map.png");
 background-position: center;
 background-repeat: no-repeat;
 background-size: contain;
