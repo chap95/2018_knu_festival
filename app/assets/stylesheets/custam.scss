@@ -299,11 +299,20 @@ font-weight: normal;
 font-style: normal; 
 }
 
+h5 {
+  color: black;
+  font-family: BMJUA;
+  font-size: 3vw;
+}
+
+button{
+  font-family: BMJUA;
+}
 
 .flux {
   font-family: BMJUA;
   color: #fae841;
-  font-size: 9vw;
+  font-size: 11vw;
   line-height: 9vw;
   text-shadow: 0 0 3vw #ffe522;
   text-align: center;
@@ -313,7 +322,7 @@ font-style: normal;
   margin-bottom: 0px;
 }
 #id {
-  font-size: 2vw;
+  font-size: 4vw;
 }
 
 
@@ -346,13 +355,12 @@ font-style: normal;
 }
 
 .img-fluid {
-  padding: 80px 0;
+  padding: 220px 0;
 }
 
 
 
 
-// 라인 업
 // 라인 업
 
 .section02{
@@ -414,6 +422,7 @@ font-style: normal;
 
 .line_up_pic01{
     background-image: url("mamamu_bback.png");
+    position: fixed;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -499,6 +508,9 @@ font-style: normal;
     
     min-height: 1000px;
 }
+
+
+
 
 // .line_up_txt02{
 //     position: relative;
