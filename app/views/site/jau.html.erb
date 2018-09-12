@@ -1,26 +1,6 @@
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script>
 
-// $(document).on('ready', function() {
-//   var pusher = new Pusher('', {
-//     cluster: '',
-//     encrypted: true
-//   });
-  
-//   function msg_generate(data) {
-//       $('.chat_room_list').prepend(`
-//       <tr>
-//         <div>${data.body}</div>
-//       </tr>`);
-//     }
-
-//   var channel = pusher.subscribe('dashboard');
-//   channel.bind('create', function(data) {
-//     console.log(data);
-//     msg_generate(data);
-//   });
-// })
-
 var pusher = new Pusher('<%= ENV["PUSHER_KEY"] %>', {
     cluster: '<%= ENV["PUSHER_CLUSTER"] %>',
     encrypted: true
@@ -29,7 +9,7 @@ var pusher = new Pusher('<%= ENV["PUSHER_KEY"] %>', {
   function msg_generate(data) {
       $('#test').append(`
       <div class="test" id="message${data.id}" style="display: none;position:absolute;">
-        <div>${data.body}</div>
+        <div>${data.body}</div>    
       </div>`);
       var item = $(`#message${data.id}`);
       item.css('top',Math.round(Math.random()*700)+300);
@@ -50,6 +30,6 @@ var pusher = new Pusher('<%= ENV["PUSHER_KEY"] %>', {
   });
 
 </script>
-<p class="head_line">왁자지껄</p>
+<h1 class="head_line">왁자지껄</h1>
 
 <div id='test'></div>
