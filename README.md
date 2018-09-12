@@ -1,6 +1,7 @@
 <div align="middle">
-<img src="./app/assets/images/plus_link.jpg" height="200px"/>
+<img src="./app/assets/images/plus_link.jpg" height="300px"/>
 </div>
+
 
 <p align="center">
 	<img src="https://img.shields.io/badge/LIKELION-6th-orange.svg">
@@ -36,7 +37,8 @@
 
 #### 초기 셋팅
 
-![Git_guide_1](./git_guide/Git_guide_1.png)
+<center>
+    ![Git_guide_1](./git_guide/Git_guide_1.png)
 
 ![Git_guide_2](./git_guide/Git_guide_2.png)
 
@@ -51,6 +53,8 @@
 ![Git_guide_7](/./git_guide/Git_guide_7.png)
 
 ![Git_guide_8](./git_guide/Git_guide_8.png)
+
+
 
 ##### 안내 사항
 
