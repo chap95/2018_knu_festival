@@ -337,40 +337,16 @@ font-style: normal;
   }
 }
 
-
-.img_01{
-
-    top: 0;
-    margin-left: 27%;
-    width: 1000px;
-    top: 1000px;
-}
-
-
-
-// 축제일정
 .list{
     position: absolute;
     top: 1000px;
     width: 100%;
     text-align: center;
+    height: 400%;
 }
 
-.list #day_01{
-    font-size: 50px;
-}
-
-.time_table{
-    font-size: 25px;
-    color: white;
-    border-bottom: 1px solid white;
-    display: inline;
-    // letter-spacing: 4px;
-    word-spacing: 15px;
-    white-space: nowrap;
-}
 .img-fluid {
-  padding: 140px 0;
+  padding: 80px 0;
 }
 
 
