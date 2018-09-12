@@ -38,7 +38,7 @@
 #### 초기 셋팅
 
 <center>
-    ![Git_guide_1](./git_guide/Git_guide_1.png)
+![Git_guide_1](./git_guide/Git_guide_1.png)
 
 ![Git_guide_2](./git_guide/Git_guide_2.png)
 
@@ -53,7 +53,7 @@
 ![Git_guide_7](/./git_guide/Git_guide_7.png)
 
 ![Git_guide_8](./git_guide/Git_guide_8.png)
-
+</center>
 
 
 ##### 안내 사항
