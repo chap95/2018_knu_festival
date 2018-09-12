@@ -1,3 +1,4 @@
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script>
 
 // $(document).on('ready', function() {
@@ -9,7 +10,7 @@
 //   function msg_generate(data) {
 //       $('.chat_room_list').prepend(`
 //       <tr>
-//         <td>${data.body}</td>
+//         <div>${data.body}</div>
 //       </tr>`);
 //     }
 
@@ -26,16 +27,29 @@ var pusher = new Pusher('<%= ENV["PUSHER_KEY"] %>', {
   });
   
   function msg_generate(data) {
-      $('.chat_room_list').prepend(`
-      <tr>
-        <td>${data.body}</td>
-      </tr>`);
+      $('#test').append(`
+      <div class="test" id="message${data.id}" style="display: none;position:absolute;">
+        <div>${data.body}</div>
+      </div>`);
+      var item = $(`#message${data.id}`);
+      item.css('top',Math.round(Math.random()*700)+300);
+      item.css('left',Math.round(Math.random()*500));
+      item.fadeIn();
+      
+      setTimeout(function() {
+        item.fadeOut();
+      }, 4000);
+
     }
 
   var channel = pusher.subscribe('dashboard');
   channel.bind('create', function(data) {
+    var msg = data.body;
     console.log(data);
     msg_generate(data);
   });
 
 </script>
+<p class="head_line">왁자지껄</p>
+
+<div id='test'></div>

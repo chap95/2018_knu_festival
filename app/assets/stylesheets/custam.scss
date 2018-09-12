@@ -667,3 +667,42 @@ font-style: normal;
     width: 100%;
     text-align: center;
 }
+
+// 카카오 챗봇
+
+.test{
+    color: white;
+    border: 2px solid white;
+    font-size: 30px;
+    display: inline-block;
+    padding: 10px 10px 10px 10px;
+    border-radius: 15px;
+}
+
+.test:after {
+    content: '';
+    position: absolute;
+    border-top: 10px solid white;
+    border-right: 5px solid transparent;
+    border-left: 5px solid transparent;
+    bottom: -9px;
+    left: 5px;
+}
+.test:before {
+    content: '';
+    position: absolute;
+    border-top: 10px solid white;
+    border-right: 5px solid transparent;
+    border-left: 5px solid transparent;
+    bottom: -11px;
+    left: 5px;
+}
+
+// 자유게시판 헤드라인
+.head_line{
+    display: block;
+    text-align: center;
+    color: white;
+    font-size: 70px;
+}
+
