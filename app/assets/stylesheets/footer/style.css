@@ -6,7 +6,7 @@
 ol,ul { list-style: none; }
 a { outline:0; text-decoration:none; color:#555; }
 img { border:0;}
-body { width:100%; height:23000px; font-family:Orbitron; font-size:12px; letter-spacing:2px;} 
+body { width:100%; height:33000px; font-family:Orbitron; font-size:12px; letter-spacing:2px;} 
 
 /*주 메뉴*/
 .gnb { position:fixed; top:50px; right:250px; z-index:2;}
@@ -60,27 +60,27 @@ section>article:nth-child(1) p span { color:#ff0f51;}
 .obj13 { bottom:20px; left:-100px;}
 
 /*두 번째 박스 콘텐츠*/
-section>article:nth-child(2) p { bottom:200px; left:100px;}
-section>article:nth-child(2) p span { color:#fffb02;}
+section>article:nth-child(2) p { bottom:100px; right:-100px; font-size: 60px;}
+section>article:nth-child(2) p span { color:#fffb02; font-size: 150px;}
 .obj21 { bottom:-420px; right:-710px;}
 .obj22 { bottom:-100px; right:-50px;}
 
 /*세 번째 박스 콘텐츠*/
-section>article:nth-child(3) p { bottom:300px; right:-100px;}
-section>article:nth-child(3) p span { color:#b57de4;}
+section>article:nth-child(3) p { bottom:300px; left:100px; font-size: 60px;}
+section>article:nth-child(3) p span { color:#b57de4; font-size: 150px;}
 .obj31 { bottom:70px; right:110px;}
 .obj32 { bottom:-160px; left:100px;}
 
 /*네 번째 박스 콘텐츠*/
-section>article:nth-child(4) p { bottom:290px; left:100px;}
-section>article:nth-child(4) p span { color:#7cf923;}
+section>article:nth-child(4) p { bottom:290px; right:-100px; font-size: 60px;}
+section>article:nth-child(4) p span { color:#7cf923; font-size: 150px;}
 .obj41 { bottom:-150px; left:350px;}
 .obj42 { top:-255px; right:167px;}
 .obj43 { bottom:-120px; right:-100px;}
 
 /*다섯 번째 박스 콘텐츠*/
-section>article:nth-child(5) p { bottom:100px; right:-150px;}
-section>article:nth-child(5) p span { color:#3dbdfa;}
+section>article:nth-child(5) p { bottom:100px; left:100px; font-size: 60px;}
+section>article:nth-child(5) p span { color:#3dbdfa; font-size: 150px;}
 .obj51 { bottom:-290px; left:-100px;}
 .obj52 { top:170px; right:30px;}
 .obj53 { bottom:0px; left:-30px;}
