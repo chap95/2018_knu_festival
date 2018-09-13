@@ -12,13 +12,6 @@
 
 ActiveRecord::Schema.define(version: 20180911145406) do
 
-  create_table "jaus", force: :cascade do |t|
-    t.string "user_key"
-    t.string "content"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
-
   create_table "messages", force: :cascade do |t|
     t.text "body"
     t.datetime "created_at", null: false
