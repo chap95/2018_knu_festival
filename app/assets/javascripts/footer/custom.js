@@ -1,14 +1,14 @@
 $(document).ready(function(){
 	
 	//페이지 로딩 시 제일 상단으로 스크롤 이동
-	$("body,html").stop().animate({"scrollTop":0},1500,"swing");	
+	$("body,html").stop().animate({"scrollTop":1},1500,"swing");	
 
 	$(window).scroll(function(){
 		
 		//변수 scroll에 현재 화면을 스크롤한 거리의 수치를 저장
-		var scroll = $(this).scrollTop()-10000;		
+		var scroll = $(this).scrollTop()-9000;		
 
-		if(scroll < 1){
+		if(scroll < 20){
 
 			document.getElementById("block").hidden = true;
 		
